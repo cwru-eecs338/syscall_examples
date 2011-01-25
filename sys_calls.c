@@ -19,8 +19,8 @@ void print_time() {
 
     // Fun fact:
     // Unix time is currently represented
-    // with a 32-bit integer, which will
-    // overflow on January 19, 2038
+    // with a 32-bit integer on some systems,
+    // which will overflow on January 19, 2038
     printf("Seconds since Jan. 1, 1970: %d\n", (int)t);
 
     // Time can be turned into a nice
