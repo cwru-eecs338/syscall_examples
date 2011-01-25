@@ -18,4 +18,7 @@ Lessons:
 --------
 
 * Getting system time via <code>time()</code>, and displaying it in a user-friendly manner
-* Getting and setting environment variables, with some issues to avoid
+* Getting and setting environment variables:
+  - Using <code>sprintf()</code> to construct variable strings
+  - Using <code>sscanf()</code> to parse variable strings
+  - Subtleties of <code>putenv()</code> and <code>getenv()</code>
