@@ -4,7 +4,7 @@ Basic System Calls
 Getting the files:
 ------------------
 
-If git is installed, you can just use:
+On the lab computer, you can use:
 <pre><code>
 git clone git://github.com/cwru-eecs338/syscall_examples.git
 </code></pre>
